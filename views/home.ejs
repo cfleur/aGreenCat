@@ -1,0 +1,10 @@
+<% include partials/header %>
+
+<h1>Welcome to your home page, <%= username %>!</h1>
+<% if(username.toLowerCase() === "cat") { %>
+	<p>Green Cats are the best!</p>
+<% } else { %>
+	<p>Go do something great today!</p>
+<% } %>
+
+<% include partials/header %>

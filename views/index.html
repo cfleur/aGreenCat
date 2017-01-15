@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Login - Ihan Pihalla</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src = "js/jsloginfile.js"></script>
+</head>
+<body>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+	<div id="background">
+		<div id="Layer5"><img id ="rightside" src="images/Layer5.png"></div>
+		<div id="Rectangle1copy3"><img id = "leftpanel" src="images/Rectangle1copy3.png"></div>
+		<div id="RoundedRectangle4"><img src="images/RoundedRectangle4.png"></div>
+		<div id="illustration"><img src="images/illustration.png"></div>
+		<!--<div id="RoundedRectangle1cop"><img src="images/RoundedRectangle1cop.png"></div>-->
+		<!--<div id="Start"><img src="images/Start.png"></div>-->
+		<div id="Logo"><img src="images/Logo.png"></div>
+		<div id="Designshareexplorean"><img src="images/Designshareexplorean.png"></div>
+		<div id="ExploreTampereyards"><img src="images/ExploreTampereyards.png"></div>
+		<div id="RegisterButton"><img src="images/RegisterButton.png"></div>
+		<div id="ForgotpasswordButton"><img src="images/ForgotpasswordButton.png"></div>
+		<div id="RoundedRectangle1"><img src="images/RoundedRectangle1.png"></div>
+		<div id="Login"><INPUT TYPE="image" src = "images/Login.png" onclick = "storeName()" class = "designbutton" VALUE="Login!"></div>
+		<div id="rememberme"><img src="images/rememberme.png"></div>
+		<div id="RoundedRectangle3"><img src="images/RoundedRectangle3.png"></div>
+		<div id="Rectangle1copy6"><input type="text" placeholder = "Password" name="lastname"></div>
+		<!--<div id="Password"><img src="images/Password.png"></div>-->
+		<div id="Rectangle1copy4"><input type="text" placeholder = "Username or email" id = "name" name="firstname"></div>
+		<!--<div id="UsernameorEmail"><img src="images/UsernameorEmail.png"></div>-->
+		<div id="or"><img src="images/or.png"></div>
+		<!--INSERT FB LOG IN BUTTON HERE -->
+		<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
+		<!--<div id="Facebook"><input type = "image" id = "fblogin" src="images/Facebook.png"></div>-->
+		<div id="Twitter"><img src="images/Twitter.png"></div>
+		<div id="Googleicon"><img src="images/Googleicon.png"></div>
+		<div id="Loginwith"><img src="images/Loginwith.png"></div>
+	</div>
+	<script>
+	function storeName() {
+		var inputName = document.getElementById("name");
+		localStorage.setItem("name", inputName.value); 
+		window.location.href = "mapstesti.html";
+	}
+            /*
+            function storeFBName() {
+            	var passName;
+            	testAPI();
+            	localStorage("name", passName);
+            	window.location.href = "mapstesti.html";
+            }
+            */
+            </script>
+        </body>-->
+        </html>
